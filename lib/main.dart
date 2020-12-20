@@ -52,8 +52,30 @@ class MyApp extends StatelessWidget {
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(4),
                 ),
+                child: Row(
+                  children: <Widget>[
+                    SizedBox(
+                      width: 14.0,
+                    ),
+                    Icon(
+                      Icons.call,
+                      color: Colors.teal,
+                      size: 20.0,
+                    ),
+                    SizedBox(
+                      width: 32.0,
+                    ),
+                    Text(
+                      '+234 111 2233 444',
+                      style: TextStyle(
+                        color: Colors.teal[700],
+                        fontSize: 15.0,
+                      ),
+                    ),
+                  ],
+                ),
                 height: 46.0,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 34.0),
                 // border: BorderRadius(),
               ),
               Container(
@@ -62,8 +84,30 @@ class MyApp extends StatelessWidget {
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(4),
                 ),
+                child: Row(
+                  children: <Widget>[
+                    SizedBox(
+                      width: 14.0,
+                    ),
+                    Icon(
+                      Icons.mail,
+                      color: Colors.teal[700],
+                      size: 20.0,
+                    ),
+                    SizedBox(
+                      width: 32.0,
+                    ),
+                    Text(
+                      'ninte@email.com',
+                      style: TextStyle(
+                        color: Colors.teal[700],
+                        fontSize: 15.0,
+                      ),
+                    )
+                  ],
+                ),
                 height: 46.0,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 34.0),
               )
             ],
           ),
