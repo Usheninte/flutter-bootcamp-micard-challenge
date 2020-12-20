@@ -42,8 +42,10 @@ class MyApp extends StatelessWidget {
                 'SOFTWARE ENGINEER',
                 style: GoogleFonts.andika(
                   textStyle: TextStyle(
-                    color: Color.fromRGBO(255, 255, 255, 1),
+                    color: Colors.teal[50],
                     fontSize: 16.0,
+                    letterSpacing: 2.5,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
