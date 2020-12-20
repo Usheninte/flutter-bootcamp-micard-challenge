@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,19 +26,25 @@ class MyApp extends StatelessWidget {
               ),
               Text(
                 'ninte.dev',
-                style: TextStyle(
-                  color: Color.fromRGBO(255, 255, 255, 1),
-                  fontSize: 40.0,
+                style: GoogleFonts.inconsolata(
+                  textStyle: TextStyle(
+                    color: Color.fromRGBO(255, 255, 255, 1),
+                    fontSize: 40.0,
+                  ),
                 ),
+                // style: TextStyle(
+                // ),
               ),
               SizedBox(
                 height: 6.0,
               ),
               Text(
                 'SOFTWARE ENGINEER',
-                style: TextStyle(
-                  color: Color.fromRGBO(255, 255, 255, 1),
-                  fontSize: 16.0,
+                style: GoogleFonts.andika(
+                  textStyle: TextStyle(
+                    color: Color.fromRGBO(255, 255, 255, 1),
+                    fontSize: 16.0,
+                  ),
                 ),
               ),
               Container(
@@ -67,9 +74,11 @@ class MyApp extends StatelessWidget {
                     ),
                     Text(
                       '+234 111 2233 444',
-                      style: TextStyle(
-                        color: Colors.teal[700],
-                        fontSize: 15.0,
+                      style: GoogleFonts.andika(
+                        textStyle: TextStyle(
+                          color: Colors.teal[700],
+                          fontSize: 15.0,
+                        ),
                       ),
                     ),
                   ],
@@ -99,9 +108,11 @@ class MyApp extends StatelessWidget {
                     ),
                     Text(
                       'ninte@email.com',
-                      style: TextStyle(
-                        color: Colors.teal[700],
-                        fontSize: 15.0,
+                      style: GoogleFonts.andika(
+                        textStyle: TextStyle(
+                          color: Colors.teal[700],
+                          fontSize: 15.0,
+                        ),
                       ),
                     )
                   ],
